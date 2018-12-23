@@ -1,0 +1,24 @@
+<idea-plugin>
+
+    <id>home.pavel.dto-test-helper</id>
+    <name>dto-test-helper</name>
+    <version>1.0.1</version>
+
+    <vendor email="pavellikin@gmail.com">Pavel Likin</vendor>
+
+    <description><![CDATA[
+        The plugin helps to generate setter methods for simple Dto Java object.
+    ]]></description>
+
+    <idea-version since-build="183"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <className>home.pavel.action.GenerateDtoAction</className>
+        </intentionAction>
+        <intentionAction>
+            <className>home.pavel.action.GenerateAssertsAction</className>
+        </intentionAction>
+    </extensions>
+
+</idea-plugin>
